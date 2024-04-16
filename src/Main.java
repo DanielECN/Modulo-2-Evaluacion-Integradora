@@ -1,17 +1,30 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/**
+ * Importación de la clase Cliente y Cuenta que se encuentra dentro del paquete de clases.
+ */
+import cl.billeteraVirtualBootcamp.clases.Cliente;
+
+/**
+ * Clase main, la principal, sin esta clase no puede existir nuestro programa, esta ejecutara todo
+ */
 public class Main {
+    /**
+     * Nuestro metodo main, recomendable para cualquier proyecto java
+     */
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // crea el cliente desde la clase Cliente y muestra la informacion de la cuenta accediendo al getCuentaCliente().
+        Cliente cliente = Cliente.crearClienteDesdeConsola();
+        cliente.getCuentaCliente().mostrarInformacionCuentaCorriente();
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        //llamo al metodo ingresar dinero para sumar dinero al saldo .
+        cliente.getCuentaCliente().ingresarDinero();
+        //y muestro nuevamente la informacion de la cuenta para ver si se agrego correctamente.
+        cliente.getCuentaCliente().mostrarInformacionCuentaCorriente();
+
+        //llamo al metodo para restar dinero al saldo.
+        cliente.getCuentaCliente().restarDinero();
+        //y muestro nuevamente la informacion de la cuenta para ver si se agrego correctamente.
+        cliente.getCuentaCliente().mostrarInformacionCuentaCorriente();
+
     }
 }
