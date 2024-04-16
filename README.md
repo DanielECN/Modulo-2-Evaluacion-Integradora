@@ -8,7 +8,8 @@
 ---
 
 </div>
-<img src="https://github.com/DanielECN/BilleteraVirtual/assets/94139814/6c6759db-26bc-43fd-9d77-a54703fa7539" />
+<img src="https://github.com/DanielECN/Modulo-2-Evaluacion-Integradora/assets/94139814/8f857ba6-c5cf-4a7f-9f47-ffc800f919fe" />
+
 
 <div>
 
@@ -25,14 +26,14 @@ el Diagrama UML que se uso para este proyecto</h3>
 <h3 align="center"> Parte de los avances cuando empece a trabajar e intentar subir el proyecto con la terminal de git </h3>
 
 <div align="center">
-<img  src="https://github.com/DanielECN/BilleteraVirtual/assets/94139814/2625375a-63ec-4a88-a9f6-460bdade703e" width="800"  />
+<img  src="https://github.com/DanielECN/Modulo-2-Evaluacion-Integradora/assets/94139814/978e7869-7d6d-43eb-b03c-fb06765dd8a9" width="800"  />
 </div>
 
 ---
 <h3 align="center"> Fragmento del proyecto mostrando parte del codigo implementado </h3>
 
 <div align="center">
-<img  src="https://github.com/DanielECN/BilleteraVirtual/assets/94139814/9cadc444-0448-491f-ae92-4bcbdc673715" width="800"  />
+<img  src="https://github.com/DanielECN/Modulo-2-Evaluacion-Integradora/assets/94139814/179bbcdb-21b0-4fc5-9c18-e0104e92cd35" width="800"  />
 </div>
 
 
